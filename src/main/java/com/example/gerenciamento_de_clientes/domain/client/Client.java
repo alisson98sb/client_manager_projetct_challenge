@@ -30,6 +30,6 @@ public class Client {
     private Boolean status_is_active;
 
     @OneToOne
-    @JoinColumn(name = "id") //Duvida: Eu vou utilizar o proprio id da entidade address ou preciso criar o compo id_address para ser apenas chave estrangeira?
+    @JoinColumn(name = "id") //Dúvida: Eu vou utilizar o proprio id da entidade address ou preciso criar o compo id_address para ser apenas chave estrangeira?
     private Address address;
 }
