@@ -24,7 +24,7 @@ public class Address {
     private UUID id;
 
     private String street;
-    private String addres_number;
+    private String address_number;
     private String complement;
     private String city;
     private String state;
